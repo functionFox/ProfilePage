@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    font-family:'Roboto';
+    margin:0;
+    background-color: #484848;
+    color:white;
+    height:100px;
+    margin-bottom: 25px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#navLeft {
+    width:50%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+#navLeft h {
+    width:40%;
+}
+
+#navLeft ul {
+    width:60%;
+    list-style:none;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#navLeft a {
+    color:white;
+    text-decoration:none;
+}
+
+#navRight {
+    width:25%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+#btn {
+    height:50%;
+    color:white;
+    border: 4px solid black;
+    background-color:lightseagreen;
+    padding: 5px 10px;
+    text-align:center;
+    box-shadow: 3px 3px black;
+    font-size:110%;
+    margin-right:70px;
+}
+
+#content {
+    font-family:cursive;
+    width:75%;
+    margin:0 auto;
+    height:725px;
+    display:flex;
+    justify-content:space-between;
+}
+
+#contentLeft {
+    width:60%;
+    height:100%;
+}
+
+#userCard {
+    width:100%;
+    height:66.5%;
+    background-color:white;
+    border:3px solid grey;
+    margin-bottom:25px;
+}
+
+#userCardTop {
+    width:100%;
+    height:25%;
+    background-color:teal;
+    border:3px solid teal;
+    position:relative;
+    top:-3px;
+    left:-3px;
+    display:flex;
+}
+
+#user {
+    height:100px;
+    position:relative;
+    top:75px;
+    left:25px;
+    border: 2px solid white;
+    border-radius:100%;
+}
+
+#userCardBottom {
+    position:relative;
+    top:65px;
+}
+
+#userCardBottom h1 {
+    margin-left:25px;
+}
+
+#map {
+    height:25px;
+    margin-right:10px;
+    margin-top:15px;
+}
+
+#gear {
+    height:25px;
+    margin-right:10px;
+    margin-top: 20px;
+}
+
+#eduCard {
+    height:25%;
+}
+
+.dataTop {
+    font-family:'Roboto';
+    background-color:black;
+    color:white;
+    height:30px;
+    width:100%;
+    padding:3px;
+}
+
+.dataTop p {
+    margin-left: 25px;
+    position:relative;
+    top:5px;
+}
+
+.dataBottom {
+    height:100%;
+    width:100%;
+    background-color:white;
+    border: 3px solid grey;
+    z-index:-1;
+}
+
+.dataBottom ul {
+    list-style:none;
+    width:100%;
+    margin: 15px 0px 5px 25px;
+}
+
+.dataBottom img {
+    height:50px;
+    margin-right:10px;
+}
+
+.dataBottom h4, p {
+    margin-left:25px;
+    margin-bottom: 25px;
+}
+
+.dataBottom h2 {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+#eduCardBottom {
+    position:relative;
+    bottom:3px;
+}
+
+#contentRight {
+    width:35%;
+    height:100%;
+}
+
+#conRequest {
+    height:30%;
+    margin-bottom:60px;
+}
+
+.numCirc {
+    background-color:lightgrey;
+    color:black;
+    padding:5px;
+    border-radius: 50%;
+}
+
+#reqBoxBottom {
+    display:flex;
+}
+
+#reqBoxBottom, #conBoxBottom {
+    position:relative;
+    bottom:3px;
+}
+
+#reqBoxBottom img, #conBoxBottom img {
+    border-radius:100%;
+}
+
+#reqBoxBR {
+    width:50%;
+    flex-direction:column;
+    position:relative;
+    right:25px;
+}
+
+#reqBoxBR ul {
+    list-style:none;
+}
+
+#reqBoxBR img {
+    height:50px;
+}
+
+#conBox {
+    height:46%;
+    position:relative;
+    top:25px;
+}
+
+#viewMore {
+    font-family:'Roboto';
+    width:100%;
+    height:10%;
+    position:relative;
+    bottom:28px;
+    background-color:white;
+    border:3px solid grey;
+    padding-top:20px;
+}
+
+#viewMore a {
+    margin-left:25px;
+}
